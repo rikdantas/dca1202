@@ -126,7 +126,6 @@ void Sculptor::cutSphere(int xcenter, int ycenter, int zcenter, int radius)
 void Sculptor::putEllipsoid(int xcenter, int ycenter, int zcenter, int rx, int ry, int rz)
 {
     // FORMULA DA ELIPSOIDE: (x - x0)^2/a^2 + (y - y0)^2/b^2 + (z - z0)^2/c^2 <= 1
-    // CASO O RAIO EM ALGUM DOS EIXOS SEJA IGUAL A -, TEREMOS UMA ELIPSE
     double dist;
     if(rx == 0){
        for(int j = 0; j <= ny; j++){
@@ -174,7 +173,6 @@ void Sculptor::putEllipsoid(int xcenter, int ycenter, int zcenter, int rx, int r
 void Sculptor::cutEllipsoid(int xcenter, int ycenter, int zcenter, int rx, int ry, int rz)
 {
     // FORMULA DA ELIPSOIDE: (x - x0)^2/a^2 + (y - y0)^2/b^2 + (z - z0)^2/c^2 <= 1
-    // CASO O RAIO EM ALGUM DOS EIXOS SEJA IGUAL A -, TEREMOS UMA ELIPSE
     double dist;
     if(rx == 0){
        for(int j = 0; j <= ny; j++){
@@ -249,20 +247,19 @@ void Sculptor::writeOFF(char *filename){
         }
      }
 
-    f << t*8 << " " << t*6 << " 0 \n"; //   VERTICES, FACES, ARESTAS = 0
+    f << t*8 << " " << t*6 << " 0 \n";
     for(x = 0; x < nx; x++){
         for(y = 0; y < ny; y++){
             for(z = 0; z < nz; z++){
                 if(v[x][y][z].isOn){
-                    //  VÉRTICES DO VOXEL EM FORMATO DE CUBO
-                    f << x - lado << " " << y + lado << " " << z - lado << "\n" << flush; //Vertice 0
-                    f << x - lado << " " << y - lado << " " << z - lado << "\n" << flush; //Vertice 1
-                    f << x + lado << " " << y - lado << " " << z - lado << "\n" << flush; //Vertice 2
-                    f << x + lado << " " << y + lado << " " << z - lado << "\n" << flush; //Vertice 3
-                    f << x - lado << " " << y + lado << " " << z + lado << "\n" << flush; //Vertice 4
-                    f << x - lado << " " << y - lado << " " << z + lado << "\n" << flush; //Vertice 5
-                    f << x + lado << " " << y - lado << " " << z + lado << "\n" << flush; //Vertice 6
-                    f << x + lado << " " << y + lado << " " << z + lado << "\n" << flush; //Vertice 7
+                    f << x - lado << " " << y + lado << " " << z - lado << "\n" << flush;
+                    f << x - lado << " " << y - lado << " " << z - lado << "\n" << flush;
+                    f << x + lado << " " << y - lado << " " << z - lado << "\n" << flush;
+                    f << x + lado << " " << y + lado << " " << z - lado << "\n" << flush;
+                    f << x - lado << " " << y + lado << " " << z + lado << "\n" << flush;
+                    f << x - lado << " " << y - lado << " " << z + lado << "\n" << flush;
+                    f << x + lado << " " << y - lado << " " << z + lado << "\n" << flush;
+                    f << x + lado << " " << y + lado << " " << z + lado << "\n" << flush;
                 }
             }
         }
