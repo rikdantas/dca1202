@@ -1,0 +1,159 @@
+# depslib dependency file v1.0
+1656031635 source:d:\programação avançada(dca1202)\dca1202\escultor3d\parte2\parte2\include\putsphere.cpp
+	"Sculptor.h"
+	"FiguraGeometrica.h"
+
+1656032203 d:\programação avançada(dca1202)\dca1202\escultor3d\parte2\parte2\include\sculptor.h
+	<string>
+
+1656030869 d:\programação avançada(dca1202)\dca1202\escultor3d\parte2\parte2\include\figurageometrica.h
+	"Sculptor.h"
+
+1656039643 source:d:\programação avançada(dca1202)\dca1202\escultor3d\parte2\parte2\main.cpp
+	<iostream>
+	<cstdlib>
+	<fstream>
+	<string>
+	"./include/Sculptor.h"
+	"./include/Interpretador.h"
+
+1656032203 d:\programação avançada(dca1202)\dca1202\escultor3d\parte2\parte2\sculptor.h
+	<string>
+
+1656030897 d:\programação avançada(dca1202)\dca1202\escultor3d\parte2\parte2\interpretador.h
+	<vector>
+	<string>
+	"FiguraGeometrica.h"
+
+1656030869 d:\programação avançada(dca1202)\dca1202\escultor3d\parte2\parte2\figurageometrica.h
+	"Sculptor.h"
+
+1656030769 source:d:\programação avançada(dca1202)\dca1202\escultor3d\parte2\parte2\include\cutbox.h
+	"Sculptor.h"
+	"FiguraGeometrica.h"
+
+1656030798 source:d:\programação avançada(dca1202)\dca1202\escultor3d\parte2\parte2\include\cutellipsoid.h
+	"Sculptor.h"
+	"FiguraGeometrica.h"
+
+1656030825 source:d:\programação avançada(dca1202)\dca1202\escultor3d\parte2\parte2\include\cutsphere.h
+	"Sculptor.h"
+	"FiguraGeometrica.h"
+
+1656030846 source:d:\programação avançada(dca1202)\dca1202\escultor3d\parte2\parte2\include\cutvoxel.h
+	"Sculptor.h"
+	"FiguraGeometrica.h"
+
+1656030869 source:d:\programação avançada(dca1202)\dca1202\escultor3d\parte2\parte2\include\figurageometrica.h
+	"Sculptor.h"
+
+1656030897 source:d:\programação avançada(dca1202)\dca1202\escultor3d\parte2\parte2\include\interpretador.h
+	<vector>
+	<string>
+	"FiguraGeometrica.h"
+
+1656030920 source:d:\programação avançada(dca1202)\dca1202\escultor3d\parte2\parte2\include\putbox.h
+	"Sculptor.h"
+	"FiguraGeometrica.h"
+
+1656031582 source:d:\programação avançada(dca1202)\dca1202\escultor3d\parte2\parte2\include\putellipsoid.h
+	"Sculptor.h"
+	"FiguraGeometrica.h"
+
+1656033291 source:d:\programação avançada(dca1202)\dca1202\escultor3d\parte2\parte2\include\putsphere.h
+	"Sculptor.h"
+	"FiguraGeometrica.h"
+
+1656031688 source:d:\programação avançada(dca1202)\dca1202\escultor3d\parte2\parte2\include\putvoxel.h
+	"Sculptor.h"
+	"FiguraGeometrica.h"
+
+1656032203 source:d:\programação avançada(dca1202)\dca1202\escultor3d\parte2\parte2\include\sculptor.h
+	<string>
+
+1656039046 source:d:\programação avançada(dca1202)\dca1202\escultor3d\parte2\parte2\src\cutbox.cpp
+	"../include/CutBox.h"
+
+1656030769 d:\programação avançada(dca1202)\dca1202\escultor3d\parte2\parte2\include\cutbox.h
+	"Sculptor.h"
+	"FiguraGeometrica.h"
+
+1656039066 source:d:\programação avançada(dca1202)\dca1202\escultor3d\parte2\parte2\src\cutellipsoid.cpp
+	"../include/CutEllipsoid.h"
+	<cmath>
+
+1656030798 d:\programação avançada(dca1202)\dca1202\escultor3d\parte2\parte2\include\cutellipsoid.h
+	"Sculptor.h"
+	"FiguraGeometrica.h"
+
+1656039078 source:d:\programação avançada(dca1202)\dca1202\escultor3d\parte2\parte2\src\cutsphere.cpp
+	"../include/CutSphere.h"
+
+1656030825 d:\programação avançada(dca1202)\dca1202\escultor3d\parte2\parte2\include\cutsphere.h
+	"Sculptor.h"
+	"FiguraGeometrica.h"
+
+1656039094 source:d:\programação avançada(dca1202)\dca1202\escultor3d\parte2\parte2\src\cutvoxel.cpp
+	"../include/CutVoxel.h"
+
+1656030846 d:\programação avançada(dca1202)\dca1202\escultor3d\parte2\parte2\include\cutvoxel.h
+	"Sculptor.h"
+	"FiguraGeometrica.h"
+
+1656039113 source:d:\programação avançada(dca1202)\dca1202\escultor3d\parte2\parte2\src\putbox.cpp
+	"../include/PutBox.h"
+
+1656030920 d:\programação avançada(dca1202)\dca1202\escultor3d\parte2\parte2\include\putbox.h
+	"Sculptor.h"
+	"FiguraGeometrica.h"
+
+1656039121 source:d:\programação avançada(dca1202)\dca1202\escultor3d\parte2\parte2\src\putsphere.cpp
+	"../include/PutSphere.h"
+
+1656033291 d:\programação avançada(dca1202)\dca1202\escultor3d\parte2\parte2\include\putsphere.h
+	"Sculptor.h"
+	"FiguraGeometrica.h"
+
+1656039131 source:d:\programação avançada(dca1202)\dca1202\escultor3d\parte2\parte2\src\putellipsoid.cpp
+	"../include/PutEllipsoid.h"
+	<cmath>
+
+1656031582 d:\programação avançada(dca1202)\dca1202\escultor3d\parte2\parte2\include\putellipsoid.h
+	"Sculptor.h"
+	"FiguraGeometrica.h"
+
+1656039141 source:d:\programação avançada(dca1202)\dca1202\escultor3d\parte2\parte2\src\putvoxel.cpp
+	"../include/PutVoxel.h"
+
+1656031688 d:\programação avançada(dca1202)\dca1202\escultor3d\parte2\parte2\include\putvoxel.h
+	"Sculptor.h"
+	"FiguraGeometrica.h"
+
+1656039151 source:d:\programação avançada(dca1202)\dca1202\escultor3d\parte2\parte2\src\sculptor.cpp
+	"../include/Sculptor.h"
+	<iostream>
+	<fstream>
+	<math.h>
+	<cstdlib>
+	<iomanip>
+
+1656039708 source:d:\programação avançada(dca1202)\dca1202\escultor3d\parte2\parte2\src\interpretador.cpp
+	"../include/Interpretador.h"
+	"../include/PutVoxel.h"
+	"../include/CutVoxel.h"
+	"../include/PutBox.h"
+	"../include/CutBox.h"
+	"../include/PutSphere.h"
+	"../include/CutSphere.h"
+	"../include/PutEllipsoid.h"
+	"../include/CutEllipsoid.h"
+	<iostream>
+	<string>
+	<fstream>
+	<sstream>
+
+1656030897 d:\programação avançada(dca1202)\dca1202\escultor3d\parte2\parte2\include\interpretador.h
+	<vector>
+	<string>
+	"FiguraGeometrica.h"
+
